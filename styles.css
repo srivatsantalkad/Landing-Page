@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid black;
+}
+.header p {
+    justify-self: flex-start;
+    border: 1px solid black;
+}
